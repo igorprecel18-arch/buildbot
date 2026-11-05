@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "buildbot",
+  "version": "${version}",
+  "name": "Builder Bot",
+  "description": "NPC, ktory sam buduje budowle.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.buildbot.BuildBotMod"],
+    "client": ["pl.buildbot.BuildBotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
